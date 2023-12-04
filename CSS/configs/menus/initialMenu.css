@@ -1,0 +1,148 @@
+.houseTable{
+    position: absolute;
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.apresentation{
+    background-color: transparent;
+    display: flex;
+    position: absolute;
+    height: 20%;
+    width: 30%;
+    top: 6%;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    padding: 0.5%;
+}
+
+.labelLogo{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../../images/Logo_BrGaap.png);
+    background-position: center;
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+
+#tableProjects{
+    display: none;
+    position: relative;
+    height: 65%;
+    width: 50%;
+    overflow: overlay;
+    font-size: 110%;
+    top: 28%;
+}
+
+.header {
+    background-color: #52586D;
+    color: white;
+    height: 50px;
+}
+
+#tableProjects .header th{
+    border: none;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+#tableProjects .header th{
+    border: none;
+}
+
+#tableProjects tbody td{
+    font-size: 15px;
+    height: 25px;
+}
+
+#tableProjects tbody .seePagetoPlot{
+    padding: 0;
+}
+
+#tableProjects tbody .checkboxtoPlot{
+    padding: 0;
+}
+
+#tableProjects .ProdutortoPlot{
+    text-align: left;
+}
+
+#tableProjects .FazendatoPlot{
+    text-align: left;
+}
+
+#tableProjects .pertalhaoPlot{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#tableProjects .pertalhaoPlot button{
+    position: relative;
+    width: 80%;
+    height: 27px;
+    background-color: #777777;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    border-radius: 8px;
+    border: solid 1px black;
+    top: 6px;
+}
+
+#tableProjects .actionsProject{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+    flex-wrap: wrap;
+    top: 2.5px;
+    align-content: center;
+}
+
+.seeAnotherPage{
+    position: relative;
+    display: flex;
+    width: 90%;
+    height: 32px;
+    border-radius: 3px;
+    border: 2px solid #3D6D90;
+    background-color: #ffffff;
+    cursor: pointer;
+    top: -2px;
+    background-image: url(../../../images/browser.png);
+    background-position: 50% 3px;
+    background-repeat: no-repeat;
+    background-size: 21%;
+}
+
+.labelCheck{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 32px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.checkName{
+    position: relative;
+    display: flex;
+    height: 20px;
+    width: 20px;
+    left: 3%;
+    cursor: pointer;
+}
